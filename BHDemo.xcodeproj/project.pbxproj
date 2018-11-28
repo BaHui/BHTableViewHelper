@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F19904921AEF51400743DC3 /* BHFirstTableViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F19904821AEF51400743DC3 /* BHFirstTableViewHelper.m */; };
+		6F19904C21AEF53200743DC3 /* BHSecondTableViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F19904B21AEF53200743DC3 /* BHSecondTableViewHelper.m */; };
+		6F19904F21AEF56E00743DC3 /* BHExampleViewController+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F19904E21AEF56E00743DC3 /* BHExampleViewController+Configure.m */; };
+		6F19905421AEF79300743DC3 /* BHExampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F19905221AEF79300743DC3 /* BHExampleCell.m */; };
+		6F19905521AEF79300743DC3 /* BHExampleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F19905321AEF79300743DC3 /* BHExampleCell.xib */; };
 		6F5A55512158D9770078916C /* BHExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A55502158D9770078916C /* BHExampleViewController.m */; };
 		6FE8F9B52150E8D400107C93 /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8F9B42150E8D400107C93 /* BHAppDelegate.m */; };
 		6FE8F9BD2150E8D500107C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE8F9BC2150E8D500107C93 /* Assets.xcassets */; };
@@ -16,6 +21,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F19904721AEF51400743DC3 /* BHFirstTableViewHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BHFirstTableViewHelper.h; path = Classes/BHFirstTableViewHelper.h; sourceTree = "<group>"; };
+		6F19904821AEF51400743DC3 /* BHFirstTableViewHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BHFirstTableViewHelper.m; path = Classes/BHFirstTableViewHelper.m; sourceTree = "<group>"; };
+		6F19904A21AEF53200743DC3 /* BHSecondTableViewHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BHSecondTableViewHelper.h; path = Classes/BHSecondTableViewHelper.h; sourceTree = "<group>"; };
+		6F19904B21AEF53200743DC3 /* BHSecondTableViewHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BHSecondTableViewHelper.m; path = Classes/BHSecondTableViewHelper.m; sourceTree = "<group>"; };
+		6F19904D21AEF56E00743DC3 /* BHExampleViewController+Configure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BHExampleViewController+Configure.h"; path = "Classes/BHExampleViewController+Configure.h"; sourceTree = "<group>"; };
+		6F19904E21AEF56E00743DC3 /* BHExampleViewController+Configure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "BHExampleViewController+Configure.m"; path = "Classes/BHExampleViewController+Configure.m"; sourceTree = "<group>"; };
+		6F19905121AEF79300743DC3 /* BHExampleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BHExampleCell.h; path = Classes/BHExampleCell.h; sourceTree = "<group>"; };
+		6F19905221AEF79300743DC3 /* BHExampleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BHExampleCell.m; path = Classes/BHExampleCell.m; sourceTree = "<group>"; };
+		6F19905321AEF79300743DC3 /* BHExampleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BHExampleCell.xib; path = Classes/BHExampleCell.xib; sourceTree = "<group>"; };
 		6F5A554F2158D9770078916C /* BHExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BHExampleViewController.h; path = Classes/BHExampleViewController.h; sourceTree = "<group>"; };
 		6F5A55502158D9770078916C /* BHExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BHExampleViewController.m; path = Classes/BHExampleViewController.m; sourceTree = "<group>"; };
 		6FE8F9B02150E8D400107C93 /* BHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +54,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F19904621AEF4D000743DC3 /* TableView Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6F19904721AEF51400743DC3 /* BHFirstTableViewHelper.h */,
+				6F19904821AEF51400743DC3 /* BHFirstTableViewHelper.m */,
+				6F19904A21AEF53200743DC3 /* BHSecondTableViewHelper.h */,
+				6F19904B21AEF53200743DC3 /* BHSecondTableViewHelper.m */,
+			);
+			name = "TableView Helper";
+			sourceTree = "<group>";
+		};
+		6F19905021AEF60300743DC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F19905121AEF79300743DC3 /* BHExampleCell.h */,
+				6F19905221AEF79300743DC3 /* BHExampleCell.m */,
+				6F19905321AEF79300743DC3 /* BHExampleCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		6FE8F9A72150E8D300107C93 = {
 			isa = PBXGroup;
 			children = (
@@ -91,8 +126,12 @@
 		6FE8F9CB2150EAF300107C93 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6F19904621AEF4D000743DC3 /* TableView Helper */,
 				6F5A554F2158D9770078916C /* BHExampleViewController.h */,
 				6F5A55502158D9770078916C /* BHExampleViewController.m */,
+				6F19904D21AEF56E00743DC3 /* BHExampleViewController+Configure.h */,
+				6F19904E21AEF56E00743DC3 /* BHExampleViewController+Configure.m */,
+				6F19905021AEF60300743DC3 /* View */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -154,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F19905521AEF79300743DC3 /* BHExampleCell.xib in Resources */,
 				6FE8F9D32150EC2600107C93 /* LaunchScreen.storyboard in Resources */,
 				6FE8F9D12150EBC900107C93 /* DemoViews.storyboard in Resources */,
 				6FE8F9BD2150E8D500107C93 /* Assets.xcassets in Resources */,
@@ -167,8 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F19904921AEF51400743DC3 /* BHFirstTableViewHelper.m in Sources */,
+				6F19904C21AEF53200743DC3 /* BHSecondTableViewHelper.m in Sources */,
+				6F19905421AEF79300743DC3 /* BHExampleCell.m in Sources */,
 				6F5A55512158D9770078916C /* BHExampleViewController.m in Sources */,
 				6FE8F9C32150E8D500107C93 /* main.m in Sources */,
+				6F19904F21AEF56E00743DC3 /* BHExampleViewController+Configure.m in Sources */,
 				6FE8F9B52150E8D400107C93 /* BHAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
