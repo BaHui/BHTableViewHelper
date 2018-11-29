@@ -2,7 +2,7 @@
 > **由于业务所需, 在同一个界面中, 可能会同时出现多个 `tableView` 或者多个 `collectionView` , 势必要实现其数据源和代理方法. 若是将当前的 `viewController` 设置为代理对象, 那么其实现的代理方法中就要去不断地去区分当前的被代理者是哪一个 `tableView` , 接下来, 我们就将其数据源和代理方法进行剥离, 减轻viewController的负担.**
 
 ### 方案思路
-> **转移代理, 创建独立的代理对象
+> **转移代理, 创建独立的代理对象**
 
 ### 实现
 1.创建 `FirstTableViewHelper` 和 `SecondTableViewHelper`的NSObject类
